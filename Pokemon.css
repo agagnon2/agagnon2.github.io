@@ -5,7 +5,7 @@
 
 body {
   /* background-image: url("https://www.toysrus.ca/on/demandware.static/-/Library-Sites-toys-global/default/dw2e724f52/images/pages/brand-pages/Pokemon-Desktop-Banner-1120x280-D.jpg"); */
-  background-image: url("../Frontend/Ressources/pokemonBackgroundCropped.jpg");
+  background-image: url("./Ressources/pokemonBackgroundCropped.jpg");
    background-color: #80af72;
   background-repeat: no-repeat;
   background-size: 100%;
