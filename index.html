@@ -18,24 +18,35 @@
       );
       Coveo.init(document.body);
     });
+
   </script>
 </head>
 
 <body id="search" class="CoveoSearchInterface" data-enable-history="true" style="padding: 1em">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball1">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball2">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball3">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball4">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball5">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball6">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball7">
+  <img src="./Ressources/pokeball-clipart-1.png" class="pokeball8">
+
+  
   <div class="CoveoAnalytics" data-search-hub="Pokemon pipeline"></div>
   <h1 class="title">Gotta ServiceNow them all!!</h1>
   <div>
     <div class="coveo-search-section">
       <div class="CoveoSearchbox" data-enable-omnibox="true" data-inline="true" data-number-of-suggestions="7"
         data-partial-match-keywords="7" data-enable-partial-match="true"></div>
+      <div class="CoveoFacetValueSuggestions" data-field="@show"></div>
       <div class="CoveoFacetValueSuggestions" data-field="@types"></div>
       <div class="CoveoFacetValueSuggestions" data-field="@species"></div>
       <div class="CoveoFacetValueSuggestions" data-field="@generation"></div>
     </div>
     <div class="coveo-facet-column">
-
+      <div class="CoveoFacet facet " data-title="Monster Source" data-field="@show"></div>
       <div class="CoveoFacet facet " data-title="Generation" data-field="@generation"></div>
-
       <div class="CoveoFacet facet " data-title="Type" data-field="@type"></div>
       <div class="CoveoFacetSlider facet" data-title="Male Percentage" data-field="@male_scollable"
         data-range-slider="true"></div>
@@ -70,21 +81,26 @@
       data-auto-select-fields-to-include="true">
       <script type="text/html" class="result-template">
         <div class="coveo-result-frame">
+          <div class="coveo-result-row" style="margin-top:10px;">
           <div class="coveo-result-cell" style="vertical-align:top;text-align:center;width:32px;">
             <span class="CoveoFieldValue" data-field="@photo_link" data-helper="image" data-helper-options-height="100" data-helper-options-width="" data-helper-options-length-limit="" data-html-value="true" data-helper-options-alt="50"></span>
           </div>
+          <div class="coveo-result-cell" style="vertical-align:top;text-align:right;width:32px;padding-right: 10px;">
+                      <div class="CoveoResultLink">
+                        <img src="./Ressources/Pokeball-svg.png"  width="40" height="56"/>                        
+                      </div>
+          </div>
+        </div>
           <div class="coveo-result-cell" style="vertical-align: top;padding-left: 16px;">
             <div class="coveo-result-row" style="margin-top:0;">
               <div class="coveo-result-cell" style="vertical-align:top;font-size:16px;" role="heading" aria-level="2">
                 <span class="CoveoFieldValue" data-field="@name"></span>
               </div>
-              <div class="coveo-result-cell">
-                <span class="CoveoText" data-value="#"></span>
-                <span class="CoveoFieldValue" data-field="@national_number"></span>
-              </div>
+  
               <div class="coveo-result-cell" style="width:120px;text-align:right;font-size:12px">
                 <div class="coveo-result-row">
-                  <span class="CoveoFieldValue" data-field="@date" data-helper="date"></span>
+                  <span class="CoveoText" data-value="#"></span>
+                <span class="CoveoFieldValue" data-field="@national_number"></span>
                 </div>
               </div>
             </div>

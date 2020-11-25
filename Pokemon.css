@@ -3,10 +3,170 @@
   src: url("./pokemon\ solid.ttf") format("truetype");
 }
 
+.pokeball1 {
+  width: 100px;
+  position: absolute;
+  animation: poke1 4s linear infinite alternate;
+}
+
+.pokeball2 {
+  width: 100px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  animation: poke2 5s linear infinite alternate;
+}
+
+.pokeball3 {
+  width: 100px;
+  position: absolute;
+  animation: poke3 6s linear infinite alternate;
+}
+.pokeball4 {
+  width: 100px;
+  position: absolute;
+  animation: poke4 7s linear infinite alternate;
+}
+.pokeball5 {
+  width: 100px;
+  position: absolute;
+  animation: poke1 4s linear infinite alternate;
+}
+
+.pokeball6 {
+  width: 100px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  animation: poke2 5s linear infinite alternate;
+}
+
+.pokeball7 {
+  width: 100px;
+  position: absolute;
+  animation: poke3 6s linear infinite alternate;
+}
+
+.pokeball8 {
+  width: 100px;
+  position: absolute;
+  animation: poke4 7s linear infinite alternate;
+}
+
+@keyframes poke1 {
+  0% {
+    top: 0vh;
+    left: 0px;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 90vh;
+    left: 300px;
+    transform: rotate(360deg);
+  }
+  50% {
+    top: 0vh;
+    left: 600px;
+    transform: rotate(0deg);
+  }
+  75% {
+    top: 90vh;
+    left: 900px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 0vh;
+    left: 1800px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes poke2 {
+  0% {
+    top: 0vh;
+    right: 0px;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 90vh;
+    left: 300px;
+    transform: rotate(360deg);
+  }
+  50% {
+    top: 0vh;
+    right: 600px;
+    transform: rotate(0deg);
+  }
+  75% {
+    top: 90vh;
+    right: 900px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 0vh;
+    right: 1800px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes poke3 {
+  0% {
+    top: 0vh;
+    left: 50px;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 90vh;
+    left: 300px;
+    transform: rotate(360deg);
+  }
+  50% {
+    top: 0vh;
+    left: 600px;
+    transform: rotate(0deg);
+  }
+  75% {
+    top: 90vh;
+    left: 900px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 0vh;
+    left: 1800px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes poke4 {
+  0% {
+    top: 0vh;
+    right: 50px;
+    transform: rotate(0deg);
+  }
+  25% {
+    top: 90vh;
+    right: 300px;
+    transform: rotate(360deg);
+  }
+  50% {
+    top: 0vh;
+    right: 600px;
+    transform: rotate(0deg);
+  }
+  75% {
+    top: 90vh;
+    right: 900px;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 0vh;
+    right: 1800px;
+    transform: rotate(0deg);
+  }
+}
+
 body {
   /* background-image: url("https://www.toysrus.ca/on/demandware.static/-/Library-Sites-toys-global/default/dw2e724f52/images/pages/brand-pages/Pokemon-Desktop-Banner-1120x280-D.jpg"); */
   background-image: url("./Ressources/pokemonBackgroundCropped.jpg");
-   background-color: #80af72;
+  background-color: #80af72;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -27,9 +187,10 @@ h1 {
 .coveo-card-layout.CoveoResult .coveo-result-frame {
   padding: 5px;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #2468b1;
-  border-width: 3px;
+  
+  border-width: 2px;
   background-color: white;
 }
 
