@@ -14,23 +14,23 @@
   position: absolute;
   top: 8px;
   right: 16px;
-  animation: poke2 5s linear infinite alternate;
+  animation: poke1 6s linear infinite alternate;
 }
 
 .pokeball3 {
   width: 100px;
   position: absolute;
-  animation: poke3 6s linear infinite alternate;
+  animation: poke1 8s linear infinite alternate;
 }
 .pokeball4 {
   width: 100px;
   position: absolute;
-  animation: poke4 7s linear infinite alternate;
+  animation: poke1 10s linear infinite alternate;
 }
 .pokeball5 {
   width: 100px;
   position: absolute;
-  animation: poke1 4s linear infinite alternate;
+  animation: poke2 5s linear infinite alternate;
 }
 
 .pokeball6 {
@@ -38,19 +38,19 @@
   position: absolute;
   top: 8px;
   right: 16px;
-  animation: poke2 5s linear infinite alternate;
+  animation: poke2 7s linear infinite alternate;
 }
 
 .pokeball7 {
   width: 100px;
   position: absolute;
-  animation: poke3 6s linear infinite alternate;
+  animation: poke2 9s linear infinite alternate;
 }
 
 .pokeball8 {
   width: 100px;
   position: absolute;
-  animation: poke4 7s linear infinite alternate;
+  animation: poke2 10s linear infinite alternate;
 }
 
 @keyframes poke1 {
@@ -61,22 +61,22 @@
   }
   25% {
     top: 90vh;
-    left: 300px;
+    left: 400;
     transform: rotate(360deg);
   }
   50% {
     top: 0vh;
-    left: 600px;
+    left: 800;
     transform: rotate(0deg);
   }
   75% {
     top: 90vh;
-    left: 900px;
+    left: 1100px;
     transform: rotate(360deg);
   }
   100% {
     top: 0vh;
-    left: 1800px;
+    left: 1500px;
     transform: rotate(0deg);
   }
 }
@@ -84,61 +84,6 @@
   0% {
     top: 0vh;
     right: 0px;
-    transform: rotate(0deg);
-  }
-  25% {
-    top: 90vh;
-    left: 300px;
-    transform: rotate(360deg);
-  }
-  50% {
-    top: 0vh;
-    right: 600px;
-    transform: rotate(0deg);
-  }
-  75% {
-    top: 90vh;
-    right: 900px;
-    transform: rotate(360deg);
-  }
-  100% {
-    top: 0vh;
-    right: 1800px;
-    transform: rotate(0deg);
-  }
-}
-@keyframes poke3 {
-  0% {
-    top: 0vh;
-    left: 50px;
-    transform: rotate(0deg);
-  }
-  25% {
-    top: 90vh;
-    left: 300px;
-    transform: rotate(360deg);
-  }
-  50% {
-    top: 0vh;
-    left: 600px;
-    transform: rotate(0deg);
-  }
-  75% {
-    top: 90vh;
-    left: 900px;
-    transform: rotate(360deg);
-  }
-  100% {
-    top: 0vh;
-    left: 1800px;
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes poke4 {
-  0% {
-    top: 0vh;
-    right: 50px;
     transform: rotate(0deg);
   }
   25% {
@@ -158,7 +103,7 @@
   }
   100% {
     top: 0vh;
-    right: 1800px;
+    right: 1200px;
     transform: rotate(0deg);
   }
 }
